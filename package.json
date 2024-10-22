@@ -1,0 +1,27 @@
+{
+  "name": "trading-bot",
+  "version": "1.0.0",
+  "description": "Automated trading bot on Internet Computer",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "deploy": "dfx deploy",
+    "dfx:start": "dfx start"
+  },
+  "author": "unknown",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.0.2",
+    "react-dom": "^18.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^6.38.1",
+    "webpack-cli": "^6.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13"
+  }
+}
